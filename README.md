@@ -1,10 +1,8 @@
-# API Consulta CA
+# API Consulta CA (via Playwright)
 
-API para consultar informações de Certificados de Aprovação (CA).
+Executa o widget da consultaca.com no backend para extrair dados de CA.
 
-## 🧠 Como usar
-
-1. Clone o repositório:
+## 📦 Dependências
 ```bash
-git clone https://github.com/seu-usuario/consulta-ca-api.git
-cd consulta-ca-api
+pip install -r requirements.txt
+playwright install
